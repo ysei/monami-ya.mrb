@@ -1,7 +1,7 @@
-# no installation...
-
-install:
- - sudo apt-get -q install gperf
-
+language: objective-c
+before_install:
+  - sudo easy_install cpp-coveralls
 env: MRUBY_CONFIG=travis_config.rb
 script: "./minirake all test"
+after_success:
+  - cpp-coveralls -r ./
