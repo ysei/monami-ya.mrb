@@ -5,4 +5,6 @@ install:
 env: MRUBY_CONFIG=travis_config.rb
 script: "./minirake all test"
 after_success:
-  - lcoveralls
+  - lcov -c -d build/debug -o coverage.info
+  - lcov --summary coverage.info
+  - lcoveralls --root .
