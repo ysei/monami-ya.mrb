@@ -4,8 +4,8 @@
 ** See Copyright Notice in mruby.h
 */
 
-#ifndef KHASH_H
-#define KHASH_H
+#ifndef MRUBY_KHASH_H
+#define MRUBY_KHASH_H
 
 #include "mruby.h"
 
@@ -271,4 +271,4 @@ typedef const char *kh_cstr_t;
 }  /* extern "C" { */
 #endif
 
-#endif  /* KHASH_H */
+#endif  /* MRUBY_KHASH_H */
