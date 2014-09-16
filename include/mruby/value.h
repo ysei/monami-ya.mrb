@@ -12,7 +12,7 @@
 #include <stdint.h>
 #include <stddef.h>
 
-typedef short mrb_sym;
+typedef uint32_t mrb_sym;
 typedef uint8_t mrb_bool;
 struct mrb_state;
 
