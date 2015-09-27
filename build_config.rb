@@ -22,9 +22,9 @@ MRuby::Build.new do |conf|
 conf.bins = %w(mrbc mruby )
 
   # conf.gem :github => 'ysei/mruby-thread', :branch => 'crimsonwoods_-_experimental_thread_support_-_normal'
-#   conf.gem :github => 'ysei/mruby-thread', :branch => 'master_-_merge_-_postmodern_-_master_-_pthread_kill_-_8a67d500'
+    conf.gem :github => 'ysei/mruby-thread', :branch => 'master_-_merge_-_postmodern_-_master_-_pthread_kill_-_8a67d500'
   # conf.gem :github => 'crimsonwoods/mruby-thread', :branch => 'experimental_thread_support'
-    conf.gem :github => 'mattn/mruby-thread', :branch => 'master'
+  # conf.gem :github => 'mattn/mruby-thread', :branch => 'master'
   # conf.gem :github => 'postmodern/mruby-thread', :branch => 'master'
   # conf.gem :github => 'matsumoto-r/mruby-thread', :branch => 'master'
   # conf.gem :github => 'hatoishi/mruby-thread', :branch => 'master'
